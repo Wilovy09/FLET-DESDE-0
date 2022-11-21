@@ -36,11 +36,14 @@ def main(page: Page):
             [
                 # Creamos un boton con el icono de restar con su funcion
                 IconButton(icons.REMOVE, on_click=minusClick),
+                
                 # Llamamos al objeto de texto
                 txtNumber,
+                
                 # Creamos un boton con el icono de sumar con su funcion
                 IconButton(icons.ADD, on_click=plusClick)
-                # esto se veria asi
+                
+                # esto se veria asi, por como fueron llamados los elementos
                 # [-] [0] [+]
             ]
             # alineamos en el centro
